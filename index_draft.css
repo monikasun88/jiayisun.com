@@ -1,0 +1,404 @@
+#top-section-image-bkg {
+  width: 100%;
+  z-index: 1;
+}
+#top-section {
+  height: 100vh;
+  overflow: hidden;
+}
+#top-section-header {
+  width: 55%;
+  height: 50%;
+  position: absolute;
+  top:-10%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+  font-size: 40px;
+  color: #f6f2ec;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 700;
+}
+body {
+  font-family: 'Alegreya Sans', sans-serif;
+  color: #FFFFFF;
+  cursor:pointer;
+}
+
+#phd-seeker, #wannabe-baker, #minesweeper-enthusiast, #food-lover {
+  display: inline;
+}
+#phd-seeker:hover {
+  color: #c09996;
+}
+#wannabe-baker:hover {
+  color: #96a8c0;
+}
+#minesweeper-enthusiast:hover {
+  color: #6b6153;
+}
+#food-lover:hover {
+  color: #4e5e4a;
+}
+#more-info-section {
+  color: #f3f3f3;
+  /*height: 100vh;*/
+  border-width: 0px 30px 30px 30px;
+  border-color: #FFFFFF;
+  border-style: solid;
+  top: 30px;
+  position: relative;
+  overflow: auto;
+}
+#more-info-section-header{
+  left: 50%;
+  display: block;
+  padding: 10px 10px 10px 10px;
+  color: #FFFFFF;
+  overflow: hidden;
+  text-align: center;
+  z-index: 100;
+}
+#more-info-section-header h1 {
+  position: relative;
+  text-align: center;
+  font-size:35px;
+  color: #381C23;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+#more-info-section-header h1 span {
+  background: #FFFFFF;
+	box-shadow:0 1px 0 rgba(255,255,255,0.75);
+	height:2px;
+	width:80px;
+	margin:0 10px;
+  position: relative;
+  z-index: 1;
+}
+
+#more-info-section-header h1:before,#more-info-section-header h1:after {
+  background: #381C23;
+  content: "";
+  display: block;
+  height: 3px;
+  position: absolute;
+  top: 50%;
+  right:50%;
+  width: 20%;
+}
+
+#more-info-section-header h1:after {
+  left: 50%;
+}
+
+#more-info-textbox {
+  background: #f6f2ec;
+  float: left;
+  width: 20%;
+  margin: 2.5%;
+  border-width: 1px;
+  border-color: #381C23;
+  border-style: solid;
+  padding: 10px 10px 10px 10px;
+  color: #381C23;
+  font-size: 18px;
+  box-shadow: 5px 5px 5px #381C23;
+}
+
+.more-info-section-container {
+  display: block;
+  float: left;
+  /*position: relative;*/
+  background: "red";
+}
+
+.more-info-section-stuff {
+  display: block;
+  padding: 10px 10px 10px 10px;
+  width: 100%;
+  position: relative;
+  /*background: #000000;*/
+}
+
+#more-info-section-stuff-pub, #more-info-section-stuff-posters, #more-info-section-stuff-talks {
+  position: relative;
+  float: left;
+  display: inline;
+  background-color: "red";
+}
+
+#more-info-section-stuff-pub {
+  width: 30%;
+}
+
+#more-info-section-stuff-posters {
+  width:40%;
+  text-align: center;
+}
+#more-info-section-stuff-talks {
+  width:30%
+}
+
+.publication-block {
+  width: 100%;
+  padding: 10px 10px 0px 0px;
+}
+.publication-block-icon {
+  text-align: center;
+  width:15%;
+  display:inline-block;
+  float:left;
+}
+.publication-block-icon img{
+  width:100%;
+
+}
+.publication-block-text {
+  width:85%;
+  display:inline-block;
+  float:right;
+  position: relative;
+  top: 45%;
+  padding: 0px 0px 0px 10px;
+  font-size: 16px;
+}
+
+.img-circle {
+  border-radius: 50%;
+  width: 80px;
+}
+
+.talks-block {
+  width:90%;
+  display:inline-block;
+  float:right;
+  position: relative;
+  top: 45%;
+  font-size: 16px;
+  color: #381C23;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: 300;
+  padding: 10px 10px 0px 0px;
+}
+
+h2 {
+  position: relative;
+  text-align: center;
+  font-size: 25px;
+  color: #3C4262;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+#more-info-section-journey {
+  display: block;
+  float: left;
+  position: relative;;
+  padding: 50px 0px 0px 0px;
+}
+
+#more-info-section-journey h1 {
+  position: relative;
+  text-align: center;
+  font-size:45px;
+  color: #3C4262;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  right: 20%;
+}
+
+.journey-block {
+  width: 70%;
+  display: block;
+  position: relative;
+  text-align: center;
+  padding: 40px 0px 0px 0px;
+  clear:both;
+}
+.journey-block-icon {
+  text-align: center;
+  width:30%;
+  height:100%;
+  display:inline-block;
+  float:left;
+}
+.journey-block-icon img{
+  width:100%;
+  top: 50%;
+  position: relative;
+}
+.journey-block-text {
+  width:55%;
+  height:100%;
+  display:inline-block;
+  float:left;
+  position: relative;
+  top: 45%;
+  padding: 0px 0px 0px 30px;
+  font-size: 16px;
+  text-align: left;
+  color: #3C4262;
+}
+
+.journey-block-text h2 {
+  text-align: left;
+  font-size:30px;
+  color: #3C4262;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 700;
+  line-height: 1;
+  margin: 0;
+}
+
+.journey-block-text h3 {
+  text-align: left;
+  font-size:30px;
+  color: #6b6153;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 400;
+  margin: 0;
+}
+
+.journey-block-text h4 {
+  text-align: left;
+  font-size:18px;
+  color: #4e5e4a;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 700;
+  line-height: 0.5;
+}
+
+.journey-block-text ul {
+  font-size: 16;
+  line-height: 1.5;
+  font-weight: 700;
+  color: #5d5d5d;
+}
+
+#skills-section {
+  display: block;
+  height: 100vh;
+  background: #FFFFFF;
+  float: left;
+  position: relative;
+  width: 100%;
+}
+
+#skills-section img {
+  width: 100%;
+  filter: blur(2px);
+  filter: grayscale(50%);
+  filter: opacity(50%);
+  position: absolute;
+}
+
+#skills-section span {
+  overflow: hidden;
+  padding: 30pt 0pt 0pt 0pt;
+  height: 30%;
+  position: absolute;
+  top: 10px;
+  left: 10%;
+  display: block;
+  /*color: #4e5e4a;
+  font-family: 'Roboto Slab';
+  font-weight: 400;
+  font-size: 50pt;*/
+}
+
+#skills-section h1{
+  color: #4e5e4a;
+  font-family: 'Roboto Slab';
+  font-weight: 700;
+  font-size: 40pt;
+  /*width: 50%*/
+}
+
+#chartarea {
+	height: 400px;
+	width: 700px;
+	border: 2px solid #4e5e4a;
+  background: #FFFFFF;
+  position: absolute;
+  top: 5%;
+  left: 30%;
+}
+
+
+
+.bar:nth-child(even) {
+  fill: #4e5e4a;
+}
+.bar:nth-child(odd) {
+  fill: #838e80;
+}
+
+.axis {
+  font-family: 'Roboto Slab' sans-serif;
+  font-size: 15px;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  shape-rendering: crispEdges;
+  color: #4e5e4a;
+}
+
+.line {
+  stroke: #000000;
+}
+
+.x.axis path {
+  display: none;
+}
+
+
+footer {
+  background: #2B2B2B;
+  padding: 10px 0px 10px 0px;
+  border: 10px 0px 10px 0px;
+  display: block;
+  position: relative;
+  float: left;
+  width: 100%;
+}
+.more-info-section-stuff_box {
+   position:relative;
+}
+.social-media-icon {
+  padding: 0px 3px 0px 3px;
+  display:inline;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a.footer-link {
+  text-transform: uppercase;;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #b1b3c0;
+  font-size: 14px;
+  padding: 0px 10px 0px 10px;
+}
+
+a.footer-link:hover {
+  color: #3C4262;
+}
+
+#footer-link-container {
+  display:relative;
+  padding: 10px 10px 20px 10px;
+}
